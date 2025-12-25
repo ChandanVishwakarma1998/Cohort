@@ -1,2 +1,0 @@
-# Cohort
-learning web devlopment
