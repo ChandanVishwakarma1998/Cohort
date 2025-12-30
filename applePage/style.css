@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ html body{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(232, 232, 232);
+ }
+   
+ nav{
+    padding: 20px;
+    background-color: white;
+ }
+
+ .navlist{
+    width: 100%;
+    height: 44px;
+    display: flex;
+   list-style: none;
+   text-align: center;
+   justify-content: center;
+   gap: 25px;
+  font-size: 16px;
+  font-family:"SF ProText","SF Pro Icons","Helvetica Neue","Helvetica","Arial",'sans-serif';
+}
+.selling-items{
+    column-gap: 10px;
+    display: flex;
+flex-direction: column;
+}
+.sell{
+    display: flex;
+    width: 100%;
+    height: 692px;
+    flex-direction: column;
+     font-family:"SF ProText","SF Pro Icons","Helvetica Neue","Helvetica","Arial",'sans-serif';
+     text-align: center;
+     background-color: #F5F5F7;
+     position: relative;
+     
+    
+
+}
+
+
+p{
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+button{
+    background-color: rgb(44, 96, 254);
+    color: rgb(245, 247, 248);
+    padding: 10px 25px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+    gap: 10px;
+    
+}
+.imgContainer{
+
+    width:100%;
+    height:500px ;
+    
+    overflow: hidden;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    transform: scale(1.1); 
+    transform-origin: 50% 50%; 
+    
+}
+
+
+.iphone{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
