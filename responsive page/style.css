@@ -279,8 +279,9 @@ main .view5 .card .cardTop {
   gap: 0.7rem;
 }
 main .view5 .card .icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.7rem;
+  height: -moz-fit-content;
+  height: fit-content;
   border-radius: 50%;
   text-align: center;
 }
