@@ -8,6 +8,7 @@
     var c3 = Math.floor(Math.random()*256)
 
     card.style.backgroundColor = `rgb(${c1},${c2},${c3})`
+    card.innerHTML = `(${c1},${c2},${c3})`
     console.log(c1,c2,c3);
     
 })
