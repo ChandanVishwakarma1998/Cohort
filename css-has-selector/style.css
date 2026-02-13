@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html ,body{
+    height: 100%;
+    width: 100%;
+      background-color: black;
+       anchor-name:--btn-anchor ;
+    
+}
+body{
+      height: 100%;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    anchor-name:--btn-anchor ;
+    
+    gap: 30px;
+
+}
+.box{
+   height: 200px;
+    width: 200px;
+    border-radius: 10px;
+     transition: all 0.2s linear;
+    /* z-index: 99; */
+  
+    
+}
+
+body:has(.box:hover) .box{
+   transform: scale(0.9);
+  
+}
+
+body .box:hover{
+  transform: scale(1.15)!important ;
+ 
+}
+
+
+
+.red{
+    background-color: rgb(155, 20, 20);
+
+}
+
+.blue{
+    background-color: rgb(21, 21, 165);
+}
+.green{
+    background-color: rgb(25, 126, 25);
+}
+
+

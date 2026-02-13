@@ -20,7 +20,7 @@ html, body {
 }
 
 @keyframes borderAnimation{
-    form{
+    from{
             --rotate: 0deg;
     } 
     to{
@@ -41,10 +41,21 @@ html, body {
     background:
               linear-gradient(black) padding-box,
               conic-gradient(from var(--rotate) , black , rgb(181, 18, 226) ,black) border-box ;
-     border: 5px solid rgba(255, 255, 255, 0);
-     animation: borderAnimation 5s infinite forwards alternate;
-    box-shadow: 0 0 50px rgb(209, 7, 249);
+     border: 0px solid rgba(255, 255, 255, 0);
+     animation: borderAnimation 2s infinite forwards ;
+    box-shadow: 0 0 0px rgb(194, 50, 242);
+    animation-timing-function: linear;
+    animation-play-state:paused;
+    transition: all 0.3s linear;
     
+}
+.box:hover{
+    animation-play-state: running;
+    border: 7px solid transparent;
+    box-shadow: 0 0 50px rgb(194, 50, 242);
+    color: rgb(237, 35, 220);
+    text-shadow: 0 0 10px rgb(231, 40, 208);
+    cursor: pointer;
 }
 
 .box img{
